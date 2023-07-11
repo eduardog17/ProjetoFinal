@@ -19,6 +19,7 @@ public class Maratonista {
     private String celular;
     private String numeroEmergencia;
     private String grupoSanguineo;
+    private Long valorIncricao;
 
 
 

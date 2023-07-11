@@ -21,7 +21,8 @@ public class Circuito {
 
     @Id
     private long id;
-    String distancia;
+    private String distancia;
+    private EnumCategoria categoria;
     @JsonIgnore
     @OneToMany (mappedBy = "circuito")
     private List<Inscricao> inscricao;
